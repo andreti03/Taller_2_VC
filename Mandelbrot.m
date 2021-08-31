@@ -25,7 +25,7 @@ function Mandelbrot()
                     break
                 end
             end
-            matr(b,a)=iter;                         % se agregan a la matriz los números que convergieron 
+            matr(b,a)=iter;                         % se agregan a la matriz los números que convergieron
         end 
     end
     image(matr)                                     % se grafica 
