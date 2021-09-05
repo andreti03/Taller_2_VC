@@ -12,9 +12,9 @@
 % rc es la parte real del número complejo 
 % ic es la parte imaginaria del número complejo 
 function matr = Julia(n,rc,ic)  
-    wr = -2:0.001:2;                            % intervalo real de -2 a 2
-    wi = -2:0.001:2;                            % intervalo imaginario de -2 a 2
-    max=1000;
+    wr = -2:0.01:2;                            % intervalo real de -2 a 2
+    wi = -2:0.01:2;                            % intervalo imaginario de -2 a 2
+    max=100;
     matr=zeros(length(wr),length(wi));          % matriz de ceros 
     %fprintf('Ingrese el n de la potencia');
     %n = input()
